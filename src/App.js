@@ -1,7 +1,8 @@
 import React from 'react';
+import LogoMain from './components/LogoMain';
 
 function App() {
-  return <h1>Hello React!</h1>;
+  return <LogoMain />;
 }
 
 export default App;
