@@ -1,15 +1,14 @@
 import React from 'react';
-import './App.css';
-import logo from './logo.svg';
+import HeaderMain from './components/HeaderMain';
+import IconSearch from './components/IconSearch';
+import LogoMain from './components/LogoMain';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello React!</h1>
-      </header>
-    </div>
+    <HeaderMain>
+      <LogoMain />
+      <IconSearch />
+    </HeaderMain>
   );
 }
 
