@@ -5,7 +5,7 @@ const IconFilter = styled.img.attrs({
   src: iconFilter,
   alt: 'Ícone que simboliza uma lista de itens',
 })`
-  background: #333;
+  margin: auto 17px;
 `;
 
 export default IconFilter;

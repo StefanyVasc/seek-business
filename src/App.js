@@ -3,6 +3,8 @@ import HeaderMain from './components/HeaderMain';
 import IconFilter from './components/IconFilter';
 import IconSearch from './components/IconSearch';
 import LogoMain from './components/LogoMain';
+import ServiceGuide from './components/ServiceGuide';
+import TitleFilter from './components/TitleFilter';
 
 function App() {
   return (
@@ -11,7 +13,11 @@ function App() {
         <LogoMain />
         <IconSearch />
       </HeaderMain>
-      <IconFilter />
+
+      <ServiceGuide>
+        <IconFilter />
+        <TitleFilter> Guia de serviços</TitleFilter>
+      </ServiceGuide>
     </>
   );
 }
