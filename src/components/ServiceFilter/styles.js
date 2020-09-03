@@ -5,7 +5,7 @@ export const ServiceFilterStyle = styled.section`
   display: flex;
   justify-content: start;
   align-items: center;
-  background: rgba(58, 64, 66, 0.4);
+  background: #3a4042;
   height: 40px;
 
   & > ${IconFilter} {
