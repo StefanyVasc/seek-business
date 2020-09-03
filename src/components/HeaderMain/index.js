@@ -6,7 +6,6 @@ const HeaderMain = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3c5268;
   height: 66px;
 
   & > ${LogoMain}, & > ${IconSearch} {
