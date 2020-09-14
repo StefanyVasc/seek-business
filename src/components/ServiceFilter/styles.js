@@ -4,19 +4,16 @@ import IconFilter from '../IconFilter';
 
 export const ServiceFilterStyle = styled.section`
   display: flex;
-  justify-content: start;
   align-items: center;
+  padding: 8px 16px;
   background: ${color.darkness};
-  height: 40px;
 
   & > ${IconFilter} {
-    margin: auto 17px;
+    margin-right: 16px;
   }
 `;
 
 export const Label = styled.p`
   color: ${color.tertiary};
   font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 1px;
 `;

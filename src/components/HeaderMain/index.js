@@ -9,7 +9,6 @@ const HeaderMain = styled.header`
 
   & > ${LogoMain}, & > ${IconSearch} {
     width: 24px;
-    /* margin: auto 16px; */
   }
 `;
 
